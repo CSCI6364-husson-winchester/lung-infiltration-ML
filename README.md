@@ -7,9 +7,9 @@ The goal of our review paper was to identify what the best performing models for
 |------------------|-------|-------------|---------|----------|
 | **GLASS**        | **99.9** | WideResNet based CNN with gradient ascent, combines feature-level and image-level anomaly synthesis to detect subtle anomalies. | [Chen et al., 2024](https://doi.org/10.48550/arXiv.2407.09359) | [Codebase](https://github.com/cqylunlun/glass) |
 | EfficientAD      | 99.8  | Lightweight CNN with student-teacher architecture. | [Batzner et al., 2024](https://doi.org/10.48550/arXiv.2303.14535) | NOTE: Unofficial implementation: [Codebase](https://github.com/rximg/EfficientAD) |
-| DDAD             | 99.8  | U-Net (CNN) based denoising diffusion model. | [Mousakhan et al., 2023](https://doi.org/10.48550/arXiv.2303.14535) | [Codebase link](#) |
-| SimpleNet        | 99.6  | WideResNet (CNN) based feature extraction technique. | [Liu et al., 2023](https://doi.org/10.48550/arXiv.2303.14535) | [Codebase link](#) |
-| PRFF-AD          | 99.1  | Combines CNN and Transformer to accurately detect and localize anomalies. | [Liu et al., 2023](https://doi.org/10.48550/arXiv.2303.14535) | [Codebase link](#) |
+| DDAD             | 99.8  | U-Net (CNN) based denoising diffusion model. | [Mousakhan et al., 2023](https://arxiv.org/abs/2305.15956) | [Codebase](https://github.com/arimousa/DDAD) |
+| SimpleNet        | 99.6  | WideResNet (CNN) based feature extraction technique. | [Liu et al., 2023](https://doi.org/10.48550/arXiv.2303.15140) | [Codebase](https://github.com/donaldrr/simplenet) |
+| PRFF-AD          | 99.1  | Combines CNN and Transformer to accurately detect and localize anomalies. | [Liu et al., 2023](https://doi.org/10.3390/s23218750) | [Codebase (dataset only)](https://github.com/HiHiAllen/GTanoIC-Dataset-for-AD) |
 
 
 **Table 1:** Top algorithm performance for image-level detection in the MVTec AD dataset
